@@ -1,4 +1,5 @@
 🏠 MagicBrick – Flat Booking Application:
+
 MagicBrick is a modern flat booking web application built using React and Bootstrap.
 It allows users to explore verified flats, apply filters, view detailed flat information, and contact owners directly — all in a clean, responsive UI.
 This project is portfolio-ready and designed to resemble real-world platforms like Magicbricks and Housing.com.
