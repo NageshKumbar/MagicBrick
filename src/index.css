@@ -1,0 +1,28 @@
+.card img {
+  transition: transform 0.4s ease;
+}
+
+.card img:hover {
+  transform: scale(1.03);
+}
+.carousel-caption {
+  bottom: 20%;
+}
+
+.carousel-caption h2 {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.carousel-caption p {
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
